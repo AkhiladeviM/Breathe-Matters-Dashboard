@@ -1,0 +1,158 @@
+.navbar-nav li {
+    padding: 15px;
+}
+
+.herobackground {
+    width: -webkit-fill-available;
+}
+
+.ourProductsBg {
+    background-image: url('./Images/circle2.png');
+}
+
+.heroRow {
+    height: 700px;
+    margin-top: 75px !important;
+    /* style={{ height: "700px", marginTop: "75px !important" }} */
+}
+
+.heroFirstImage {
+    width: 210px;
+    left: 6rem;
+    top: 74px;
+    position: absolute;
+}
+
+.heroSecondImage {
+    width: 220px;
+    left: 26rem;
+    top: 300px;
+    position: absolute;
+}
+
+.heroThirdImage {
+    width: 220px;
+    left: -4rem;
+    top: 400px;
+    position: absolute;
+}
+
+@media (max-width: 768px) {
+    .heroSection1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .heroDivider{
+        top: "20px";
+    } */
+    .heroFirstImage {
+        width: 130px;
+        left: 2rem;
+        top: 50px;
+        position: absolute;
+    }
+
+    .heroSecondImage {
+        width: 120px;
+        left: 13rem;
+        top: 170px;
+        position: absolute;
+    }
+
+    .heroThirdImage {
+        width: 120px;
+        left: -2rem;
+        top: 270px;
+        position: absolute;
+    }
+
+    .heroRow {
+        height: 1150px;
+        margin-top: 75px !important;
+    }
+
+    .heroSection {
+        height: 650px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 912px) {
+    .heroSection1 {
+        display: flex;
+    }
+
+    .heroDivider {
+        top: 20px;
+    }
+
+    .heroFirstImage {
+        width: 255px;
+        left: 2rem;
+        top: 50px;
+        position: absolute;
+    }
+
+    .heroSecondImage {
+        width: 260px;
+        left: 28rem;
+        top: 170px;
+        position: absolute;
+    }
+
+    .heroThirdImage {
+        width: 120px;
+        left: 1rem;
+        top: 520px;
+        position: absolute;
+    }
+
+    .heroRow {
+        height: 1121px;
+        margin-top: 75px;
+    }
+
+    .heroSection {
+        height: 480px;
+    }
+}
+
+@media (min-width: 912px) and (max-width: 1024px) {
+    .heroSection1 {
+        display: flex;
+    }
+
+    .heroDivider {
+        top: 20px;
+    }
+
+    .heroFirstImage {
+        width: 155px;
+        left: 2rem;
+        top: 50px;
+        position: absolute;
+    }
+
+    .heroSecondImage {
+        width: 160px;
+        left: 15rem;
+        top: 170px;
+        position: absolute;
+    }
+
+    .heroThirdImage {
+        width: 120px;
+        left: -1rem;
+        top: 320px;
+        position: absolute;
+    }
+
+    .heroRow {
+        height: 655px;
+        margin-top: 75px !important;
+    }
+
+    .heroSection {
+        height: 650px;
+    }
+}
